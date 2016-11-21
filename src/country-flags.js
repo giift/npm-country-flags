@@ -27,8 +27,6 @@ class CountryFlags
                 scale = this.scales_[scale];
             }
 
-            window.console.log(scale);
-
             return this.assets_uri+'/png/'+scale+'/'+code+'.png';
         }
         return null;
